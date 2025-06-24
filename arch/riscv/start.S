@@ -3,6 +3,6 @@
 
 _start:
     la sp, stack_top    # 设置栈指针
-    call main           # 跳转到main()函数
+    call start          # 跳转到main()函数
 1:  j 1b                # 死循环防止返回
 
